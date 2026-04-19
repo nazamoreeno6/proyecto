@@ -21,6 +21,20 @@ def get_int(mensaje:str, mensaje_error: str, minimo: int, maximo: int, reintento
             return numero
          
       print(mensaje_error)
+
+      from des import get_int
+
+numero = get_int("Ingrese un numero del 1 al 10:", "Numero incorrecto", 1, 10, 3)
+
+                
+
+if numero != None:
+    print("Igresaste:", numero) 
+else:
+    print("Superaste los reintentos")
+
+
+print("resultado:", numero)
    
       reintentos -= 1
 
