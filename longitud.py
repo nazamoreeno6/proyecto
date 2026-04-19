@@ -8,17 +8,6 @@ def get_string(longitud: int) -> str|None:
         str|None: Retorna None
     
     """
-    def validar_longitud(texto):
-        if len(texto) >= 6:
-            return True
-        else:
-            return False
-        
-    cadena = input("Ingrese una palabra:")
-
-    if validar_longitud(cadena):
-        print("Longitud valida:")
-    else:
-        print("Debe ingresar al menos 6 caracteres")
+    def validar_longitud
 
     get_string = None
